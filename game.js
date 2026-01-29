@@ -47,11 +47,9 @@ if (level === null) {
 
 	suggestion.textContent = "For the tutorial, type: "
 
-	suggestion2.textContent = "\"C:/Users/"
+	suggestion2.textContent = "\"sapphirejudah52213.github.io/"
 		
-	suggestionMiddle.textContent = "yourName" 
-		
-	suggestionLast.textContent = "/mazeGame/index.html?level=0\""
+	suggestionMiddle.textContent = "MazeGame?level=0" 
 }
 else if (isNaN(parseInt(level))) {
 	levelNum.textContent = `Invalid Level: ${level}`;
@@ -264,6 +262,7 @@ function checkCollisions(user) {
 	
 	return [touchingUp, touchingDown, touchingLeft, touchingRight]
 }
+
 
 
 
