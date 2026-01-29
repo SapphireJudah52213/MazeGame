@@ -15,18 +15,18 @@ suggestion.className = "text"
 const suggestion2 = document.createElement('div')
 suggestion2.className = "text"
 suggestion2.style.position = "absolute"
-suggestion2.style.left = "24.5%"
+suggestion2.style.left = "25%"
 
 const suggestionMiddle = document.createElement('div')
 suggestionMiddle.className = "text"
 suggestionMiddle.style.position = "absolute"
 suggestionMiddle.style.color = "#ea00ea"
-suggestionMiddle.style.left = "35.35%"
+suggestionMiddle.style.left = "10.5%"
 
 const suggestionLast = document.createElement('div')
 suggestionLast.className = "text"
 suggestionLast.style.position = "absolute"
-suggestionLast.style.left = "46.5%"
+suggestionLast.style.left = "43.5%"
 
 const Objects = [];
 const ObjectsH = [];
@@ -262,6 +262,7 @@ function checkCollisions(user) {
 	
 	return [touchingUp, touchingDown, touchingLeft, touchingRight]
 }
+
 
 
 
